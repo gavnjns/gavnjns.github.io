@@ -93,7 +93,7 @@ address{
     margin-left:auto;
     margin-right:auto;
     transition:transform 1s, box-shadow 1s;
-    background-image: url("images/JapanTable.jpg");
+    background-image: url("Images/JapanTable.jpg");
     background-size:contain;
 }
 .Train:hover{
