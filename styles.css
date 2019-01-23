@@ -3,6 +3,7 @@
     padding:0;
     border:0;
     font-size:inherit;
+    font-style: inherit;
     font-weight:inherit;
     font-family:inherit;
     text-decoration:inherit;
@@ -55,6 +56,9 @@ section{
     padding: 50px 0;
     max-width: 800px;
     margin:0 auto;
+}
+address{
+    white-space: pre-line;
 }
 .hero{
     height:100vh;
