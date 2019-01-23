@@ -34,6 +34,17 @@ h1 sub:before{
 h1 sub:after{
     content:")";
 }
+h2{
+    font-size:24px;
+    line-height: 40px;
+    font-weight: bold;
+}
+a{
+    color:#58b;
+}
+a:hover{
+    color: #369;
+}
 img{
     border-radius: 50%;
     height: 30vh;
@@ -57,7 +68,6 @@ section{
     width: 100%;
     height: 100%;
 }
-
 .Train{
     width:300px;
     height:300px;
@@ -65,7 +75,7 @@ section{
     margin-left:auto;
     margin-right:auto;
     transition:transform 1s, box-shadow 1s;
-    background-image: url("JapanTable.jpg");
+    background-image: url("Images/JapanTable.jpg");
     background-size:contain;
 }
 .Train:hover{
@@ -77,4 +87,11 @@ section{
 }
 .Train:hover img{
     opacity: 0;
+}
+.list li{
+    display: inline;
+    font-weight: bold;
+}
+.list li:not(:last-child):after{
+    content:", ";
 }
