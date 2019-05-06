@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#header
+{
+    background-image: url(imgs/gavwidth.JPG);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;  
+}
+.navbar-nav li a
+{
+    float: right;
+    color: #ffffff!important;
+}
+.navbar-brand img
+{
+    width: 100px;
+    margin-left: 15px;
+}
+.navbar-toggler
+{
+    border: none!important;
+    outline: none !important;
+}
+nav .fa-bars
+{
+    color: #ffffff;
+    font-size: 26px;
+}
+/*----Welcome Text----*/
+.welcome
+{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1
+{
+    color: #333;
+}
+.welcome .home-btn
+{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+.welcome .btn:focus
+{
+    box-shadow: none;
+}
+/*--------------------------------About--------------------------------*/
+
+#about
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about .col-md-6
+{
+    padding: 20px 10px;
+}
+#about h3
+{
+    margin: 20px auto;
+}
+/*----------------------------projects-----------------------------*/
+
+#projects
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+#projects.col-md-6
+{
+    padding: 20px 10px;
+}
+#projects h3
+{
+    margin: 20px auto;
+    padding-left: 50px
+}
+#projects p
+{
+    margin: 20px auto;
+    padding-left: 50px
+}
+
+/*-------------------------------Contact-------------------------------*/
+
+#contact
+{
+    padding: 50px 100px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+#contact address
+{
+    white-space: pre-line;
+}
+

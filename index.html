@@ -1,64 +1,99 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Gavin Jones</title>
-        <link rel="stylesheet" href="styles.css" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-    </head>
-    <body>
-        <ul class="nav">
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#AboutMe">About Me</a></li>
-            <li><a href="#Contact">Contact info</a></li>
-        </ul>
-        <section class="hero">
-            <header>
-                <div class="Train">
-                    <img src="Images/JapanTrain.jpg" alt="Train Pic" />
-                </div>
-                <h1>James <sub>aka Gavin</sub> Jones</h1>
-                <p>Student at the MS Coding Academy</p>   
-            </header>
-        </section> 
-        <section id="Projects">
-            <header>
-                <h1>Projects</h1>
-            </header>
-            <ul class="blocklist">
-                <li>
-                    <img src="Images/GitHub-Mark.png" alt="Board" />
-                    <div>
-                        <h2><a href="https://github.com/gavnjns">My Github</a></h2>
-                        <p>Documentation of my projects can be found here</p>
-                        <ul class="list">
-                            <li>HTML</li>
-                        </ul>
-                    </div>    
-                </li>
-            </ul>            
-        </section>
-        <section id="AboutMe">
-            <h1>About Me</h1>
-            <div class="prose">
-                <p>My name is James Gavin Jones and I'm a student at the MS Coding Academy.</p>
-                <p>Some programing languages I've worked in are:</p>
-                <ul>
-                    <li>C#</li>
-                    <li>HTML</li>
-                    <li>Assembly</li>
-                    <li>Phython</li>
-                </ul>
-                <p>In my free time I enjoy 3d modeling and video games.</p>
-            </div>
-        </section>
-        <section id="Contact">
-            <h1>Contact</h1>
-            <address>
-                James Gavin Jones
-                Starkville, MS 39759
-                662.684.9445
-                <a href="https://github.com/gavnjns">Github</a>
-            </address>
-        </section>
-    </body>
+<head>
+<title>James Gavin Jones Portfollio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">       
+</head>
+<body>
+<!---------------Header Section---------------->    
+<section id="header">
+
+<nav class="navbar navbar-light">
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fa fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">ABOUT ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">PROJECTS</a>
+      </li>
+    </ul>
+  </div>
+</nav>       
+</section>    
+    
+    <!----------------Welcome Text----------------->
+    
+<section id="welcome">
+    <div class="container">
+    <div class="welcome text-center">
+    <h1>James Gavin Jones</h1>    
+    <p>Student at the MS Coding Academy</p>
+    </div>
+    </div>    
+</section>
+    <!----------------About---------------->
+<section id="about">
+<div class="constainer">
+<div class="row">
+<div class="col-md-5 text-center">
+    <img src="imgs/gavheigth.JPG" class="img-fluid">
+</div>
+<div class="col-md-6 text-justify">
+    <h3>About Me</h3>
+    <p>My name is James Gavin Jones and I'm a student at the MS Coding Academy.</p>
+    <p>Some programing languages I've worked in are:</p>
+    <p align = "center">
+        C#<br />
+        HTML<br />
+        Assembly<br />
+        Python   
+    </p>
+    <p>In my free time I enjoy 3d modeling and video games.</p>
+</div>
+</section> 
+        <!----------------Projects---------------->
+<section id="projects">
+    
+<div class="constainer">
+<div class="row">
+
+<div class="col-md-6 text-justify">
+    <h3 align = center>Projects</h3>
+    <p align = "center">
+        <a href="https://github.com/gavnjns/Asciify">Image to Ascii</a><br />
+        <a href="https://github.com/gavnjns/gavnjns.github.io">This Website</a>   
+    </p>
+</div>
+<div class="col-md-6 ">
+    <img src="imgs/night%20temp%20pic.jpg" class="img-fluid">
+</div>
+</section> 
+    <!--------------Contact------------->
+<section id = "contact">
+    <div class=" text-center" >
+    <h3>Contact</h3>
+    <address>
+        James Gavin Jones
+        Starkville, MS 39759
+        662.684.9445
+        <a href="https://github.com/gavnjns">Github</a>
+    </address>    
+    </div>
+</section>
+</div>    
+</div>   
+   
+   
+</body>
 </html>
