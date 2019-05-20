@@ -65,6 +65,11 @@ nav .fa-bars
 {
     padding: 20px 10px;
 }
+#pic-side
+{
+    transform: rotate(-90deg);
+    padding: 20px 10px;
+}
 #about h3
 {
     margin: 20px auto;
