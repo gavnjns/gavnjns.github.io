@@ -13,7 +13,8 @@
 .navbar-nav li a
 {
     float: right;
-    color: #ffffff!important;
+    color: black;
+    font-size: 45px;
 }
 .navbar-brand img
 {
@@ -27,8 +28,8 @@
 }
 nav .fa-bars
 {
-    color: #ffffff;
-    font-size: 26px;
+    color: black;
+    font-size: 45px;
 }
 /*----Welcome Text----*/
 .welcome
